@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        Customer_activities obj = new Customer_activities();
+//        System.out.println(obj.generateID());
+//        System.out.println(obj.signUP("Salma29", "123", "Saeed", "Salma",
+//                "salma@email.com", "01117642352", "main st"));
+//        System.out.println(obj.isValid_userName("Salma_29"));
+//        System.out.println(obj.editCustomerInfo("Salma29", "1234", "Saeed", "Salma",
+//                "salma@email.com", "01117642352", "main st"));
+//        System.out.println(obj.addBookToCart("456", 2));
+//        System.out.println(obj.viewItems());
+//        System.out.println(obj.viewIndividualPrices());
+//        System.out.println(obj.viewTotalPrice());
+//        System.out.println(obj.logOut());
+        System.out.println(obj.logIn("Salma29", "1234"));
+    }
+}
